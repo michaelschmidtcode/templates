@@ -1,0 +1,7 @@
+body {
+  padding-top: 5rem;
+}
+
+select {
+  appearance: revert !important;
+}
