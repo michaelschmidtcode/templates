@@ -19,7 +19,9 @@ function appendTemplate_list(container, element){
 function setDatabase(database){
     selectedDatbase = database;
     $("#schemaContainer").hide();
+    $("#structureContainerElements").hide();
     $("#tableContainer").show();
+    $("#tableContainerElements").show();
     $("#databaseName").html(database);
     $.ajax({
         url:"./controller/tables.php",    //the page containing php script
